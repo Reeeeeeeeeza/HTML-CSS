@@ -1,0 +1,21 @@
+.uber{
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0px;
+}
+
+
+.amazon{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border-radius: 15px;
+    border: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
