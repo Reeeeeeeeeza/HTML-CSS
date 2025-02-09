@@ -1,0 +1,30 @@
+a{
+    color: rgb(0, 113, 133);
+}
+
+.heading{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.cost{
+    color: rgb(0, 118, 0);
+}
+
+.add, .buy{
+    border: 0px;
+    border-radius: 15px;
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.add{
+    background-color: rgb(255, 216, 20);
+}
+
+.buy{
+    background-color: rgb(255, 164, 28);
+    border: 0px;
+    border-radius: 15px;
+}
