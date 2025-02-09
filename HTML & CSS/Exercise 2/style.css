@@ -28,3 +28,43 @@
     border-radius: 5px;
     width: 100px;
 }
+
+.bootstrap{
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: 0px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.bootstrap-dwd{
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border: 1px solid rgb(108, 117, 125);
+    border-radius: 5px;
+    border: 1px solid rgb(108, 117, 125);
+    padding: 10px;
+    width: 100px;
+}
+
+.linkden{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border-radius: 15px;
+    border: 0px;
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.linkden-save{
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border: 1px solid rgb(10, 102, 194);
+    border-radius: 15px;
+    width: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
