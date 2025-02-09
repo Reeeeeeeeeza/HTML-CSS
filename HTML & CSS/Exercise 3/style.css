@@ -1,0 +1,28 @@
+.subscribe{
+    background-color: red;
+    color: white;
+    border: 0px;
+    width: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.join{
+    background-color: white;
+    color: skyblue;
+    border: 1px solid skyblue;
+    width: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.tweet{
+    background-color: skyblue;
+    color: white;
+    border: 0px;
+    width: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
