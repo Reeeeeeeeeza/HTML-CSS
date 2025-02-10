@@ -1,0 +1,105 @@
+.uber{
+    background-color: black;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0px;
+}
+
+.uber:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+
+.amazon{
+    background-color: rgb(255, 216, 20);
+    color: black;
+    border-radius: 15px;
+    border: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.amazon:hover{
+    cursor: pointer;
+    background-color: rgba(255, 216, 20, 0.842);
+}
+
+.github{
+    color: white;
+    background-color: rgb(46, 164, 79);
+    border: 0px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.github:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.bootstrap{
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border: 0px;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.bootstrap:hover{
+    cursor: pointer;
+    background-color:  rgba(121, 82, 179, 0.521);
+}
+
+.bootstrap-dwd{
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border: 1px solid rgb(108, 117, 125);
+    border-radius: 5px;
+    border: 1px solid rgb(108, 117, 125);
+    padding: 10px;
+    width: 100px;
+}
+
+.bootstrap-dwd:hover{
+    cursor: pointer;
+    background-color: rgb(108, 117, 125);
+    color: white;
+}
+
+.linkden{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    border-radius: 15px;
+    border: 0px;
+    width: 200px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.linkden:hover{
+    cursor: pointer;
+    background-color: rgba(10, 102, 194, 0.63);
+}
+.linkden-save{
+    background-color: white;
+    color: rgb(10, 102, 194);
+    border: 1px solid rgb(10, 102, 194);
+    border-radius: 15px;
+    width: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.linkden-save:hover{
+    cursor: pointer;
+    background-color: rgb(10, 102, 194);
+    color: white;
+}
