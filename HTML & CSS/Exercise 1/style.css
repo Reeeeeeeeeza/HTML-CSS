@@ -1,6 +1,9 @@
 a{
     color: rgb(0, 113, 133);
 }
+a:hover{
+    color: red;
+}
 
 .heading{
     font-weight: bold;
@@ -22,9 +25,26 @@ a{
 .add{
     background-color: rgb(255, 216, 20);
 }
+.add:hover{
+    cursor: pointer;
+    background-color: rgba(255, 216, 20, 0.747);
+}
+
+.add:active{
+    opacity: 0.5;
+}
 
 .buy{
     background-color: rgb(255, 164, 28);
     border: 0px;
     border-radius: 15px;
+}
+
+.buy:hover{
+    cursor: pointer;
+    background-color: rgba(255, 164, 28, 0.842);
+}
+
+.buy:active{
+    opacity: 0.5;
 }

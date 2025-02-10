@@ -26,6 +26,7 @@
 }
 
 .amazon:hover{
+    cursor: pointer;
     background-color: rgba(255, 216, 20, 0.842);
 }
 
@@ -39,6 +40,7 @@
 }
 
 .github:hover{
+    cursor: pointer;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 
@@ -52,6 +54,7 @@
 }
 
 .bootstrap:hover{
+    cursor: pointer;
     background-color:  rgba(121, 82, 179, 0.521);
 }
 
@@ -66,6 +69,7 @@
 }
 
 .bootstrap-dwd:hover{
+    cursor: pointer;
     background-color: rgb(108, 117, 125);
     color: white;
 }
@@ -81,6 +85,7 @@
 }
 
 .linkden:hover{
+    cursor: pointer;
     background-color: rgba(10, 102, 194, 0.63);
 }
 .linkden-save{
@@ -94,6 +99,7 @@
 }
 
 .linkden-save:hover{
+    cursor: pointer;
     background-color: rgb(10, 102, 194);
     color: white;
 }
