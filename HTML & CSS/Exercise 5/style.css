@@ -6,3 +6,19 @@
 .details{
     margin-top: 0px;
 }
+
+.more{
+    color: white;
+    background-color: rgb(227, 65, 64);
+    text-align: center;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.sp{
+    cursor: pointer;
+}
+
+.sp:hover{
+    text-decoration: underline;
+}
