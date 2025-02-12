@@ -1,0 +1,49 @@
+img{
+    height: 130px;
+    width: 250px;
+}
+img:hover{
+    border-radius: 5px;
+}
+
+.title {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;       /* Limit to 2 lines */
+    -webkit-box-orient: vertical; /* Set the box to vertical */
+    overflow: hidden;            /* Hide overflowed content */
+    text-overflow: ellipsis;     /* Show the ellipsis (...) */
+    width: 255px;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: arial;
+    margin-bottom: 0px;
+    margin-top: 7px;
+}
+
+.icon, .description, .verified{
+    display: inline-block;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+    padding-top: 10px;
+}
+
+.description{
+    white-space: nowrap;        /* Prevent text from wrapping */
+    overflow: hidden;           /* Hide any overflowing content */
+    text-overflow: ellipsis;    /* Add the ellipsis (...) */
+    width: 230px;  
+    color: gray;
+    font-size: 14px;
+    margin-top: 7px;
+    margin-bottom: 0px;
+}
+
+.views{
+    color: gray;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
