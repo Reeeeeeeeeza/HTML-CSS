@@ -1,0 +1,78 @@
+.img1{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.img2{
+    width: 150px;
+    height: 150px;
+
+}
+
+.img3{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+}
+
+.rounded-search{
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+    border: 1px solid black;
+}
+
+.google-search{
+    border-radius: 10px;
+    width: 300px;
+    height: 20px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+
+}
+
+.linkden{
+    height: 20px;
+    width: 250px;
+}
+
+.linkden-text{
+    color: grey;
+}
+
+.linkden-btn{
+    background-color: rgb( 10, 102, 194);
+    color: white;
+    width: 250px;
+    height: 50px;
+    border-radius: 25px;
+    border: 0px;
+}
+
+.tweeter-png{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    vertical-align: middle;
+}
+
+.tweeter-text{
+    border-radius: 20px;
+    border: 0px solid black;
+    height: 40px;
+    width: 250px;
+    vertical-align: middle;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    padding-left: 10px;
+}
+
+.tweeter-btn{
+    border-radius: 15px;
+    width: 80px;
+    height: 30px;
+    border: 0px;
+    color: white;
+    background-color: rgb( 10, 102, 194);
+    font-weight: bold;
+    vertical-align: middle;
+}
