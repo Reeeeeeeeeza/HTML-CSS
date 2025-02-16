@@ -18,10 +18,12 @@ button{
 }
 
 .google-logo{
+    padding-top: 20px;
     display: block;
     padding-left: 100px;
     height: 50px;
-    width: 120px;
+    width: 150px;
+    padding-bottom: 20px;
 }
 
 .google-input{
@@ -30,6 +32,12 @@ button{
     width: 300px;
     height: 20px;
     padding-left: 10px;
+    padding-top: 5px;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+    
+    border: 0px;
+    box-shadow: 1px 1px 5px #999;
 }
 
 .signup-firstN{
