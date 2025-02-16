@@ -1,0 +1,44 @@
+.search-box{
+    display: block;
+    margin-bottom: 20px;
+    padding-left: 30%;
+}
+
+input{
+    width: 500px;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid black;
+    padding-left: 10px;
+    color: gray;
+    font-family:Roboto;
+    font-size: 15px;
+
+}
+
+div{
+    display: inline-block;
+    width: 300px;
+    margin-right: 50px;
+    vertical-align: middle;
+    margin-top: 0px;
+}
+img{
+    width: 25vw;
+    height: 25vh;
+    border-radius: 10px;
+}
+img:hover{
+    border-radius: 0px;
+}
+
+p{
+    color: gray;
+    margin-top: 5px;
+    size: 10rem;
+}
+
+.title-vid{
+    color: black;
+    font-weight: bold;
+}
