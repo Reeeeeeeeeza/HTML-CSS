@@ -1,0 +1,107 @@
+.name-box{
+    display: block;
+}
+
+.email-box{
+    display: block;
+    margin-top: 5px ;
+}
+
+.pp{
+    display: inline-block;
+    width: 200px;
+}
+
+button{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.google-logo{
+    display: block;
+    padding-left: 100px;
+    height: 50px;
+    width: 120px;
+}
+
+.google-input{
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 300px;
+    height: 20px;
+    padding-left: 10px;
+}
+
+.signup-firstN{
+    display: inline-block;
+    width: 100px;
+    height: 20px;
+    margin-top: 10px;
+    color: gray;
+    border: 1px solid gray;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+.signup-email{
+    display: block;
+    margin-top: 10px;
+    width: 200px;
+    height: 20px;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.signup-btn{
+    margin-top: 10px;
+    width: 210px;
+    height: 30px;
+    color: white;
+    background-color: rgb(57, 117, 233);
+    border: 0px;
+    border-radius: 5px;
+}
+
+.uber-head{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.uber-pick{
+    display: block;
+    color: gray;
+    border: 0px;
+    background-color: rgba(182, 178, 178, 0.377);
+    padding-left: 10px;
+    height: 30px;
+    width: 250px
+}
+
+.uber-drop{
+    display: block;
+    color: gray;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border: 0px;
+    background-color: rgba(182, 178, 178, 0.377);
+    padding-left: 10px;
+    height: 30px;
+    width: 250px
+
+}
+
+.uber-request-btn{
+    background-color: black;
+    color: white;
+    padding:10px;
+    border: 0px;
+}
+
+.uber-later-btn{
+    background-color: rgba(182, 178, 178, 0.377);
+    color: black;
+    padding:10px;
+    border: 0px;
+}
