@@ -38,3 +38,42 @@
     color: gray;
 }
 
+.facebook{
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.13);
+    margin:5px;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+}
+
+.p11{
+    padding-left: 5px;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p12{
+    padding-left: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.facebook-btn{
+    margin-left: 5px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    border: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100px;
+    margin-bottom: 10px;
+}
