@@ -5,21 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        img{
-            width: 200px;
-            height: 100px;
-            vertical-align: middle;
+        :root {
+        --clr-dark: #0f172a;
+        --clr-light: #f1f5f9;
+        --clr-accent: #e11d48;
         }
 
-        h1{
-            display: inline-block;
-            
+        *,
+        *::before,
+        *::after {
+        box-sizing: border-box;
         }
 
+
+        body {
+            margin: 5em 0 0 0;
+            font-family: 'Roboto', sans-serif;
+            color: var(--clr-dark);
+            padding: 100px;
+            background-color: var(--clr-light);
+        }
+
+        .container{
+            background-color: var(--clr-accent);
+            padding: 5px;
+            display: inline-grid;
+            grid-template-columns: 100px 100px 100px;
+            grid-template-rows: 80px 80px 80px;
+        }
+        
+        .item{
+            background-color: #fb7185;
+            margin: 10px;
+            padding: 5px;
+        }
+
+        input{
+            height: 40px;
+            border: 0px;
+            width: 310px;
+            padding: 5px;
+            display: block;
+            box-shadow: 0px 0px 10px 5px rgb(179, 168, 168);
+        }
     </style>
 </head>
 <body>
-    <h1>Salmon</h1>
-    <img src="ali.jpg" alt="">
+    <input type="text">
+
+    <div class="container">
+        
+        <div class="item item-1">1</div>
+        <div class="item item-2">2</div>
+        <div class="item item-3">3</div>
+        <div class="item item-4">4</div>
+        <div class="item item-5">5</div>
+        <div class="item item-6">6</div>
+        <div class="item item-7">7</div>
+        <div class="item item-8">8</div>
+        <div class="item item-9">9</div>
+      </div>
 </body>
 </html>
