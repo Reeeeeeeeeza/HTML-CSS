@@ -1,0 +1,50 @@
+.container{
+    display: grid;
+    grid-template-columns: 290PX 75PX;
+}
+
+.item-1{
+    background-color: skyblue;
+}
+
+.item-2{
+    background-color: pink;
+}
+
+
+.container1{
+
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 50px 1fr 75px;
+    margin-bottom: 100px;
+
+}
+
+.col-1{
+    background-color: skyblue;
+}
+
+.col-2{
+    background-color: pink;
+}
+
+.col-3{
+    background-color: skyblue;
+}
+
+.container2{
+    width: 900px;
+    margin: 0px auto;
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    display: grid;
+    grid-template-columns: 160px 160px 160px 160px ;
+    grid-template-rows: 2;
+    row-gap: 10px;
+    column-gap: 20px;
+}
+
+.container2 > div{
+    background-color: pink;
+}
