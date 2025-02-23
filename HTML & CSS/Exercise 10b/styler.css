@@ -24,50 +24,12 @@ img{
 }
 
 
-.item-5 > img{
+.item-1 > img{
     height: 35px;
     width: 35px;
     border-radius: 100px;
 
 }
-
-.item-3 > p, .item-2 > p{
-    font-family: Arial, Helvetica, sans-serif;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    padding-left: 10px;
-}
-.item-2 > p{
-    font-weight: bold;
-}
-
-.item-3 > p{
-    color: rgb(172, 164, 164);
-
-}
-
-.item-3{
-    padding-left: 40px;
-    padding-top: 10px;
-}
-.item-2{
-    grid-row: 2;
-}
-
-.item-4{
-    grid-row: 4;
-}
-
-.item-5{
-    padding-left: 10px;
-}
-
-
-.item-3, .item-5{
-    grid-row: 3;
-    grid-column: 1;
-}
-
 button{
     margin-left: 10px;
     margin-bottom: 10px;
