@@ -4,35 +4,90 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <style>
-        .container {
-            background-color: pink;
-            height: 300px;
-            width: 400px;
+        .container{
             display: grid;
-            grid-template-columns: 2fr 6fr;
-            grid-template-rows:  1fr 6fr 1fr  ;
+            height: 100%;
+            width: 100%;
+            background-color: pink;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: auto;
+            column-gap: 5px;
+            justify-content: space-between;
         }
 
-
         .items{
-            border: 2px solid rgb(241, 119, 140);
-            margin: 5px;
-            text-align: center;
-            padding: 13px 0;
+            display: grid;
+            column-gap: 1px;
+            row-gap: 10px;
+        } 
+
+        .items>div{
+            background-color: lightcoral;
+            padding: 20px;
         }
 
     </style>
 </head>
 <body>
+        
+    <!-- div.items{dabba $} * 5 -->
     <div class="container">
-        <!-- div.items{dabba $} * 5 -->
-        <div class="items items1">dabba 1</div>
-        <div class="items item2">dabba 2</div>
-        <div class="items">dabba 3</div>
-        <div class="items">dabba 4</div>
-        <div class="items">dabba 5</div>
+        
+        <div class="items">
+            <div>1</div>
+        </div>
+
+        <div class="items">
+            <div>2</div>
+            <div>3</div>
+        </div>
+
+        <div class="items">
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+        </div>
+
+        <div class="items">
+            <div>7</div>
+            <div>8</div>
+            <div>9</div>
+            <div>10</div>
+        </div>
+
+
+        <div class="items">
+            <div>11</div>
+            <div>12</div>
+            <div>13</div>
+            <div>14</div>
+            <div>15</div>
+            <div>16</div>
+        </div>
+
+
+        <div class="items">
+            <div>17</div>
+            <div>18</div>
+            <div>19</div>
+            <div>20</div>
+            <div>21</div>
+            <div>22</div>
+            <div>23</div>
+            <div>24</div>
+            <div>25</div>
+            <div>26</div>
+            <div>27</div>
+            <div>28</div>
+        </div>
+
+
+
+
     </div>
-    
+         
+        
 </body>
 </html>
