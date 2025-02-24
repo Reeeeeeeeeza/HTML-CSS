@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    .container{
+        display: grid;
+        grid-template-columns: 200px auto;
+        padding: 10px;
+        margin: 10px;
+        width: 1200px;
+        height: 600px;
+        row-gap: 10px;
+        column-gap: 10px;
+    }
+
+    .second{
+        display: grid;
+        grid-template-rows: 100px 2fr 1fr;
+        row-gap: 10px;
+    }
+
+    .second-2{
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+        column-gap: 10px;
+    }
+
+    .first, .second-2-1, .second-2-2, .second-1, .second-3{
+        background-color: rgb(255, 174, 0);
+    }
+
+    
+
+</style>
+
+<body>
+    <div class="container">
+        <div class="first">
+            nav
+        </div>
+
+        <div class="second">
+            <div class="second-1">
+                second-1
+            </div>
+
+            <div class="second-2">
+                <div class="second-2-1">
+                    second-2-1
+                </div>
+ 
+                <div class="second-2-2">
+                    second-2-2
+                </div>
+
+            </div>
+
+            <div class="second-3">
+                second-3
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
