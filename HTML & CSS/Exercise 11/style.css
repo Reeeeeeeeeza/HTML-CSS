@@ -1,0 +1,39 @@
+.container{
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.div1{
+    display: flex;
+    background-color: skyblue;
+    width: 100px;
+    justify-content: center; /* Center horizontally */
+
+}
+
+.div2{
+    background-color: pink;
+    width: 200px;
+}
+
+.div3{
+    background-color: pink;
+    width: 100px;
+}
+
+.div4{
+    display: flex;
+    width: 200px;
+    background-color: skyblue;
+    justify-content: space-between;
+}
+
+.div5{
+    background-color: skyblue;
+    width: 200px;
+}
+
+span{
+    background-color: black;
+    color: white;
+}
