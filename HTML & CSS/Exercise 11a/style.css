@@ -1,0 +1,51 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+
+.first{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    /* margin-top: 20px; */
+    margin-right: 10px;
+}
+
+.main-body{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.middle-body{
+    display: flex;
+    justify-content: space-between;
+}
+
+.down-body{
+    display: flex;
+    flex-direction: column;
+}
+
+.boldie{
+    font-weight: bolder;
+    margin: 0px;
+}
+
+.time{
+    margin: 0px;
+    color: gray;
+}
+
+.last{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    margin-top: 8px;
+}
